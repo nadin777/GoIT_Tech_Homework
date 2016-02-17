@@ -1,0 +1,81 @@
+/*Header*/
+h1 {
+  width: 140px;
+  margin-left: 50px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+.wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.buttons {
+  width: 965px;
+  height: 40px;
+  margin-left: 50px;
+  background-color: #4f4f4f;
+  cursor: pointer;
+}
+.text {
+  position: relative;
+  top: 12px;
+  list-style: none;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 3px black;
+}
+.list {
+  display: inline-block;
+  padding-left: 24px;
+  padding-right: 48px;
+}
+.link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.list:hover {
+  background-image: url(../hw3/grey_button.png);
+  background-size: cover;
+}
+/*Sidebar*/
+.link_2 {
+  display: inline-block;
+  width: 240px;
+  height: 40px;
+  text-decoration: none;
+  color: #2c2c2c;
+  font-family: sans-serif;
+}
+.list_2 {
+  border: 1px solid gray;
+}
+.goods {
+  list-style: none;
+}
+.left_menu {
+  display: inline;
+  margin-left: 12px;
+  margin-top: 26px;
+  float: left;
+}
+
+.link_2:hover {
+  color: black;
+  margin-left: 35px;
+}
+/*Contents*/
+.picture {
+border: 1px solid gray;
+margin-top: 40px;
+margin-left: 50px;
+}
+.paragraph {
+margin-left: 355px;
+color: #2c2c2c;
+font-size: 15px;
+font-family: sans-serif;
+}
+/*Footer*/
