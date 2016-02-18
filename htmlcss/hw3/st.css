@@ -24,12 +24,15 @@ h1 {
 }
 .text {
   position: relative;
-  top: 12px;
+  margin: 20px;
+  height: 100%;
   list-style: none;
   font-family: sans-serif;
   text-shadow: 1px 1px 3px black;
+  margin: 20px;
 }
 .list {
+  height: 100%;
   display: inline-block;
   padding-left: 30px;
   padding-right: 30px;
