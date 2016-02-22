@@ -58,14 +58,19 @@ body {
 
 .sidebar_item {
   display: inline-block;
-  padding-left: 54px;
+  padding-left: 40px;
   font-size: 15px;
   font-weight: bolder;
 }
 
-.sidebar_link {
+.sidebar_link,
+.sidebar_link_1 {
   text-decoration: none;
   color: white;
+}
+
+.sidebar_link_1:after {
+  content: "\25BC"
 }
 
 .submenu {
