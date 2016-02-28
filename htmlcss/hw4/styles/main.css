@@ -1,7 +1,7 @@
 /*Header*/
 
 body {
-  background-image: url(background_image.jpg);
+  background-image: url(../images/background_image.jpg);
   background-size: 11%;
   font-family: Tahoma, Geneva, Kalimati, sans-serif;
 }
@@ -40,7 +40,7 @@ body {
   font-size: 10px;
 }
 
-.image: {
+.image {
   padding: 0;
   width: 100%;
 }
@@ -81,7 +81,7 @@ body {
   background-color: #333333;
 }
 
-.submenu_item: {
+.submenu_item {
   display: block;
 }
 
