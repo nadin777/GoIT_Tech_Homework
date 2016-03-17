@@ -10,7 +10,7 @@
 }
 body {
   background-image: url(../images/background.jpg);
-  background-size: 1400px;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   font-family: 'Helvetica Neue';
@@ -44,7 +44,7 @@ body {
   padding: 15px;
 }
 .logo {
-  padding-top: 100px;
+  margin-top: 10px;
   margin-right: -15px;
 }
 .references {
@@ -76,10 +76,19 @@ body {
 }
 .option {
   text-align: center;
-  margin: 15px;
   color: #8d8e8d;
+  margin: 15px;
 }
-
+.line_1 {
+  margin-left: 198px;
+}
+.line_1,
+.line_2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 2px;
+  width: 80px;
+}
 .button_1 {
   width: 220px;
   padding: 5px;
@@ -121,7 +130,8 @@ body {
   border: 1px solid #000;
   background-color: rgba(0,0,0,0.6);
 }
-.form {
+.form,
+.form_1 {
   display: block;
   width: 200px;
   margin-left: 200px;
@@ -132,6 +142,9 @@ body {
   background-color: black;
   font-size: 14px;
   color: white;
+}
+.form_1 {
+  margin-top: 15px;
 }
 .form:hover {
   background-color: #1b5288;
