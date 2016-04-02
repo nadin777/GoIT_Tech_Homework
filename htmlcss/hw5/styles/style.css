@@ -44,12 +44,13 @@ body {
   padding: 15px;
 }
 .upper_logo {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: -15px;
   margin-bottom: -14px;
 }
 .references {
   list-style: none;
+  margin-left: 10px;
 }
 .ref {
   display: inline-block;
@@ -90,7 +91,7 @@ body {
   height: 2px;
   width: 80px;
 }
-.button_1 {
+.big_button {
   width: 220px;
   padding: 5px;
   margin-top: 20px;
@@ -104,7 +105,7 @@ body {
   font-weight: bold;
   color: white;
 }
-.button_1:before {
+.big_button:before {
   content: 'f';
   border-right: 1px solid #1d3c75;
   padding-right: 15px;
@@ -147,14 +148,14 @@ body {
 .form_1 {
   margin-top: 15px;
 }
-.form:hover {
+.form:hover, .form_1:hover {
   background-color: #1b5288;
   box-shadow: 2px 2px 31px 5px rgba(85,144,184,1);
 }
 input::-webkit-input-placeholder {
  color: white;
 }
-.button_2 {
+.button_blue {
  width: 150px;
  height: 30px;
  margin-left: 230px;
@@ -169,7 +170,7 @@ input::-webkit-input-placeholder {
  color: white;
  text-shadow: -2px -2px 8px rgba(150, 150, 150, 1);
 }
-.button_3 {
+.check {
   text-align: center;
   color: white;
 }

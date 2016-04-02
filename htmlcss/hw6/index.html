@@ -7,36 +7,43 @@
   <link rel="stylesheet" href="styles/style.css">
  </head>
  <body>
-     <span><img alt="phone" src="images/phone.jpg"></span>
-     <span>(044)123-45-67 (044)567-89-10</span>
+
      <header>
-      <span><img alt="person" src="images/log-in.jpg"></span>
-      <span><input type="text" placeholder="логин" class="header_form">
-      <input type="text" placeholder="пароль" class="header_form"></span>
-      <nav>
-        <a href="#" class="header_link">вход</a>
-        <a href="#" class="header_link_1">регистрация</a>
-        <a href="#" class="header_link_2">забыли пароль?</a>
-      </nav>
+       <span><img alt="phone" src="images/phone.jpg" class="phone"></span>
+       <span>(044)123-45-67 (044)567-89-10</span>
+       <div class="upper_panel">
+       <span><img alt="person" src="images/log-in.jpg" class="id"></span>
+       <span><input type="text" placeholder="логин" class="header_form">
+       <input type="text" placeholder="пароль" class="header_form"></span>
+        <a href="#" class="header_link">вход | регистрация</a>
+        <a href="#" class="header_link">забыли пароль?</a>
+    </div>
+    <span class="directions">
+      <a href="#"><img src="images/home.jpg" alt="house"></a>
+      <a href="#"><img src="images/list.jpg" alt="diagram"></a>
+      <a href="#"><img src="images/mail.jpg" alt="letter"></a>
+    </span>
+    <div>
+        <img alt="Zazor.com.ua" src="images/logo.jpg">
+    </div>
     </header>
-  <img alt="Zazor.com.ua" src="images/logo.jpg">
         <div class="sidebar">
-             <ul>
-               <li><a href="#">О компании</a></li>
-               <li><a href="#">Оплата</a></li>
-               <li><a href="#">Доставка</a></li>
-               <li><a href="#">Статьи</a></li>
-               <li><a href="#">Контакты</a></li>
+             <ul class="sidebar_menu">
+               <li class="sidebar_item"><a href="#" class="sidebar_link">О КОМПАНИ</a></li>
+               <li class="sidebar_item"><a href="#" class="sidebar_link">ОПЛАТА</a></li>
+               <li class="sidebar_item"><a href="#" class="sidebar_link">ДОСТАВКА</a></li>
+               <li class="sidebar_item"><a href="#" class="sidebar_link">СТАТЬИ</a></li>
+               <li class="sidebar_item"><a href="#" class="sidebar_link">КОНТАКТЫ</a></li>
              </ul>
-           <span><img alt="purchase" src="images/purchase.jpg"></span>
-          <span>товаров:</span>
-          <span>0</span>
-          <span>на сумму:</span>
-          <span>0,00 грн.</span>
+          <span class="sidebar_item_1"><img alt="purchase" src="images/purchase.jpg" class="image"></span>
+          <span class="letters">товаров:</span>
+          <span class="numbers">0</span>
+          <span class="letters"> на сумму:</span>
+          <span class="numbers"> 0,00 грн.</span>
         </div>
         <div class="content">
-        <aside class="left menu">
-          <p>Каталог продукции</p>
+        <aside class="left_menu">
+          <p class="catalogue">Каталог продукции</p>
           <p>Шины</p>
           <ul>
             <li><a href="#">Наименование 1</a></li>
@@ -59,7 +66,7 @@
             <li><a href="#">Наименование 4</a></li>
           </ul>
         </aside>
-        <main role="main">
+        <main class="main">
 
             <div class="block_1">
               <figure class="product_1">
